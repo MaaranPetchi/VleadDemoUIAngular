@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EmployeecontrollerModule } from './Modules/EmployeeController/employeecontroller/employeecontroller.module';
 import { EmployeevsdivisioncontrollerModule } from './Modules/EmployeeVsDivisions/employeevsdivisioncontroller/employeevsdivisioncontroller.module';
 import { FooterComponent } from './Components/LandingPage/footer/footer/footer.component';
+import { CustomerComponent } from './Components/Customer/customer/customer.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { FooterComponent } from './Components/LandingPage/footer/footer/footer.c
     LandingpageComponent,
     LoginComponent,
     FooterComponent,
+    CustomerComponent,
 
   
    
